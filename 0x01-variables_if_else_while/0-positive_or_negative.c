@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/**
- * main - entry point of header
- * description - positive or negative
- * return - sucess(0)
- */
 
 /* more headers goes there */
 
 
 
 /* betty style doc for function main goes there */
-
+/**
+* main - entry point header
+* description - program will assign a random
+* number to the variable n
+* return - success(0)
+*/
 int main(void)
 
 {
