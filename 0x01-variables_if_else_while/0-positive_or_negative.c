@@ -7,14 +7,14 @@
 
 
 /* betty style doc for function main goes there */
+
+int main(void)
 /**
 * main - entry point header
 * description - program will assign a random
-* number to the variable n
+* number to variable n
 * return - success(0)
 */
-int main(void)
-
 {
 
 	int n;
