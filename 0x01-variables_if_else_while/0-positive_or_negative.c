@@ -1,20 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /* more headers goes there */
-
+/**
+* main - entry point
+* description:  program will assign a random
+* number to variable
+* Return - success
+*/
 
 
 /* betty style doc for function main goes there */
-
 int main(void)
-/**
-* main - entry point header
-* description - program will assign a random
-* number to variable n
-* return - success(0)
-*/
+
 {
 
 	int n;
