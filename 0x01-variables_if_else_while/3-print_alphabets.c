@@ -21,11 +21,11 @@ int main(void)
             
 	         }
         while	
-		 (c <='Z') {
+		 (d <='Z') {
 	                putchar(d);
 			d++;
 
-                }
+
         putchar('\n');
         return (0);
 
