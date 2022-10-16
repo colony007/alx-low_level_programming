@@ -6,14 +6,10 @@
  * main - entry point
  * description:  program will assign a random
  * number to variable
- * Return - success
+ * Return: success
  */
-
 /* betty style doc for function main goes there */
 int main(void)
-/**
- * main - entry point
- */
 {
 
 	int n;
