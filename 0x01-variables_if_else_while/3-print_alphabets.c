@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - prints alpha in lower and upper case
+ * main - entry point 
+ * prints alpha in lower and upper case
  * Return: success
  */
 int main(void)
 {
+	char ch;
 
-	char bi;
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 
-	for (bi = 'a'; bi<= 'z'; bi++)
-		putchar(bi);
-
-	for (bi = 'A'; bi<= 'Z'; bi++)
-		putchar(bi),
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch),
 	
 	putchar('\n');
 
