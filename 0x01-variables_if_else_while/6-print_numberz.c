@@ -7,10 +7,10 @@
  */
  int main()
  {
- 	int a;
+ 	int ch;
 
-	for (a = 0; a < 10; a++)
-	putchar(a);
+	for (ch = '0'; ch < '10'; a++)
+	putchar(ch);
 	putchar('\n');
 	return (0);
  }
