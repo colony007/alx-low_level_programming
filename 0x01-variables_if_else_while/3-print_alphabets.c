@@ -5,16 +5,19 @@
  * description: prints alpha in lower and upper case
  * Return: success
  */
-int main(void)
+	int main(void)
 {
-	int x;
-	int y;
+	int ch1;
+	int ch2;
 
-	for (x = 'a', y = 'A'; x <= 'z' || y <= 'Z'; x++, y++)
+	for (ch1 = 'a'; ch1 <= 'z'; ch1++)
+	putchar(ch1);
 
-	putchar(x);
-	putchar(y);
-	putchar('\n');
-
-	return (0);
+{
+	for (ch2 = 'A'; ch2 <= 'Z'; ch2++)
+	putchar(ch2);
 }
+	return (0);
+
+}
+
