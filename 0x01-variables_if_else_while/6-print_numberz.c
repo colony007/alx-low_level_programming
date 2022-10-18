@@ -5,12 +5,12 @@
  * numbers of base 10 starting from 0
  * Return: success (0)
  */
- int main()
- {
+int main(void)
+{
  	int ch;
 
 	for (ch = '0'; ch < '10'; a++)
 	putchar(ch);
 	putchar('\n');
 	return (0);
- }
+}
