@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * main - entry point
  * description: prints the alphabet in lowercase
@@ -7,13 +9,13 @@
 int main(void)
 {
 
-	char la;
+	char c;
 
-	for (la = 'a'; la <= 'z'; la++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 
-		if (la != 'e' && la != 'q')
-			putchar(la);
+		if (c != 'e' && la != 'q')
+			putchar(c);
 
 	}
 
