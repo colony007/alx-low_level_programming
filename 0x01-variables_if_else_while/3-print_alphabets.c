@@ -10,11 +10,10 @@ int main(void)
 	int x;
 	int y;
 
-	for (x = 'a', y = 'A'; x <= 'z' && y <= 'Z'; x++, y++)
+	for (x = 'a', y = 'A'; x <= 'z' || y <= 'Z'; x++, y++)
 
- 	putchar(x);
+	putchar(x);
 	putchar(y);
-		
 	putchar('\n');
 
 	return (0);
