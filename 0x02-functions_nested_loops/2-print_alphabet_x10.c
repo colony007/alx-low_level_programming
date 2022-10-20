@@ -2,18 +2,24 @@
 
 /**
  * print_alphabet_x10 - print 10 times the alphabet, in lowercase
+ * Return: x10 a-z
  */
 
 void print_alphabet_x10(void)
 {
-	int ten;
-	char ch;
+	int ch, co;
 
-	for (ten = 0; ten <= 9; ten++)
-	{
+	co = 0;
+
+	while (co < 10)
+{
 		for (ch = 'a'; ch <= 'z'; ch++)
+		{
+
 			_putchar(ch);
-		_putchar('/n');
-	}
+		}
+		co++;
+		_putchar('\n');
+}
 
 }
