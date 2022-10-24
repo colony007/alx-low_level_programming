@@ -4,15 +4,16 @@
  * print_lines - prints a straight  line using '_'
  * @n: the number of '_' to be printed
  */
-
-void print_lines(int n)
+void print_line(int n)
 {
 
 	int i;
 
-	for (i = 0; i < n; i++)
+	for (n > 0)
 	{
+		for (i = 0; i < n; i++)
 		_putchar('_');
 	}
+
 	_putchar('\n');
 }
