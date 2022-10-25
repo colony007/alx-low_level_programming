@@ -8,12 +8,11 @@
 
 void print_triangle(int size)
 {
-	int a, b = 0;
-	int space;
+	int a, b
 
 	if (size > 0)
 	{
-		while (b < size)
+		for (a < size)
 		{
 			space = size - b - 1;
 			while (a < size)
