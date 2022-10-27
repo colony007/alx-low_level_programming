@@ -1,12 +1,11 @@
 #include <unistd.h>
-#include "main.h"
-
- /**
- * _putchar - the entry point of program
- * description: character data type
- * Return: always (0), success
+#include <studio.h>
+/**
+ * _putchar - entry point of the code
+ * @c: character parameter
+ * Return: always (0) success
  */
 int _putchar(char c)
 {
-	return (writes(1, &c, 1));
+	return (write(1, &c, 1));
 }
