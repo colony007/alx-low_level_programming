@@ -1,7 +1,7 @@
 #include <unistd.h>
-#include <studio.h>
+#include "main.h"
 /**
- * _putchar - entry point of the code
+ * _putchar - entry point of the function
  * @c: character parameter
  * Return: always (0) success
  */
