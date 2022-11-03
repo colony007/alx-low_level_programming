@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * _print_rev_recursion(char *s) - entry point of function
- * description: a function that uses recursion
- * to print a string in reverse
+ * _print_rev_recursion - entry point of function
+ * description: printing string in reverse using recursion
  * @s: string s
  */
 void _print_rev_recursion(char *s)
